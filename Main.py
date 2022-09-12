@@ -2,6 +2,13 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
+  for i in range(0,n-2):
+    min=i
+    for j in range (1,n-1):
+      if array[min]>array[j]:
+        min=j
+    swap(array[j],array[min])
+    
 
 # Do not change the following code
 input_data = input()
