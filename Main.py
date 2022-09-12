@@ -2,12 +2,13 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
-  for i in range(0,n-2):
+  for i in range(size-2):
     min=i
-    for j in range (1,n):
+    for j in range (i+1,size):
       if array[min]>array[j]:
         min=j
     swap(array[j],array[min])
+    return array
   for i in range(0,n-2):
     min=j
     swap(array[i],array[min])
