@@ -8,10 +8,7 @@ def selectionSort(array, size) -> List[int]:
       if array[min]>array[j]:
         min=j
     swap(array[j],array[min])
-    return array
-  for i in range(0,n-2):
-    min=j
-    swap(array[i],array[min])
+  return array
 
 # Do not change the following code
 input_data = input()
